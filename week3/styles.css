@@ -25,10 +25,19 @@ p strong {
   color: #f08080;
 }
 
-a {
-   text-decoration: none; 
-  }
+a, u {
+  text-decoration: none;
+}
 
-{
+a:hover {
+  text-decoration:underline;
+}
+
+ #link {
   text-transform: uppercase;
+}
+
+img {
+  float: left;
+  margin: 25px 10px;
 }
