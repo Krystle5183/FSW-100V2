@@ -1,0 +1,89 @@
+:root{
+    
+    --main-padding: 5px;
+}
+
+.container {
+display:grid;
+height:100vh;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: 01fr 01fr 01fr 01fr;
+grid-template-areas: 
+    "one one one one"
+    "two two1 two2 two3"
+    "three three three1 three1"
+    "four four four five";
+grid-gap: 0.2rem;
+
+}
+
+.one {
+    background-color: #F5C6D6;
+    grid-area: one;
+    padding-top:var(--main-padding);
+}
+
+.two {
+    background-color: #ee2e84;
+    grid-area: two;
+    padding-top:var(--main-padding);
+}
+
+.two1 {
+    background-color: #ee2e84;
+    grid-area: two1;
+    padding-top:var(--main-padding);
+}
+
+.two2 {
+    background-color: #ee2e84;
+    grid-area: two2;
+    padding-top:var(--main-padding);
+}
+
+.two3 {
+    background-color: #ee2e84;
+    grid-area: two3;
+    padding-top:var(--main-padding);
+}
+
+.three {
+    background-color: #85CFD8;
+    grid-area: three;
+    padding-top:var(--main-padding);
+}
+
+.three1 {
+    background-color: #85CFD8;
+    grid-area: three1;
+    padding-top:var(--main-padding);
+}
+
+.four {
+    background-color: #8DC63F;
+    grid-area: four;
+    padding-top:var(--main-padding);
+}
+
+.five {
+    background-color: #E76E34;
+    grid-area: five;
+    padding-top:var(--main-padding);
+}
+
+    @media only screen and (max-width:768px) {
+    .container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr;
+        grid-template-areas: 
+        "one"
+        "two"
+        "two1"
+        "two2"
+        "two3"
+        "three"
+        "three1"
+        "four"
+        "five";
+    }
+}
