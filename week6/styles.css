@@ -10,6 +10,9 @@
   .box1 {
     border-radius: 10px;
     background-color: rgb(19, 151, 134);
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
     height: 50px;
   }
 
@@ -55,6 +58,9 @@
   .box4 {
     border-radius: 10px;
     background-color: rgb(206, 216, 68);
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
     height: 50px;
   }
 
@@ -84,6 +90,7 @@
   .box6 {
     border-radius: 10px;
     background-color: rgb(14, 85, 67);
+    transition: background-color 1s ease-in 2s, width 1s ease-in-out;
     height: 50px;
   }
 
