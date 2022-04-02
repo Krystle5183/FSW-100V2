@@ -1,0 +1,94 @@
+.container {
+    display: grid;
+    gap: 10px;
+    height: 50px;
+    width: 400px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 01fr;
+    }
+
+  .box1 {
+    border-radius: 10px;
+    background-color: rgb(19, 151, 134);
+    height: 50px;
+  }
+
+  .box1:hover {
+    border-radius: 60px;
+    background-color: rgb(101, 207, 190);
+    width: 100px;
+    height: 150px;
+    border: solid;
+    }
+
+  .box2 {
+    border-radius: 10px;
+    background-color: rgb(46, 182, 69);
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    height: 50px;
+  }
+
+  .box2:hover {
+    border-radius: 30px;
+    background-color: rgba(95, 69, 145, 0.884);
+    height: 80px;
+    width: 65px;
+    height: 35px;
+  }
+ 
+  .box3 {
+    border-radius: 10px;
+    background-color: rgb(172, 62, 139);
+    height: 50px;
+  }
+
+  .box3:hover {
+    border: solid;
+    border-radius: 15px;
+    background-color: rgb(241, 14, 192);
+    width: 20px;
+    height: 30px;
+  }
+
+  .box4 {
+    border-radius: 10px;
+    background-color: rgb(206, 216, 68);
+    height: 50px;
+  }
+
+  .box4:hover {
+    border-radius: 20px;
+    background-color: rgb(12, 248, 63);
+    width: 60px;
+    height: 60px;
+    border: solid;
+    border-width: 10px;
+    border-color: rgb(109, 9, 9);
+  }
+
+  .box5 {
+    border-radius: 10px;
+    background-color: rgb(82, 4, 65);
+    height: 50px;
+  }
+
+  .box5:hover {
+    border-radius: 50px;
+    background-color:rgb(170, 93, 144);
+    width: 50px;
+    height: 120px;
+  }
+
+  .box6 {
+    border-radius: 10px;
+    background-color: rgb(14, 85, 67);
+    height: 50px;
+  }
+
+  .box6:hover {
+    background-color: rgb(34, 238, 187);
+    width: 75px;
+    height: 50px; 
+  }
